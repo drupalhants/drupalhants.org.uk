@@ -1,0 +1,13 @@
+name = Services and Wanted
+description = Configuration for listings for services offered and things or people wanted, related to Drupal
+core = 7.x
+package = Drupal Community
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_instance][] = node-services-body
+features[field_instance][] = node-wanted-body
+features[node][] = services
+features[node][] = wanted
+project path = sites/all/modules/features

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Services and Wanted feature.
+ */
+
+include_once 'services_and_wanted.features.inc';
